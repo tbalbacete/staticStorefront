@@ -1,0 +1,204 @@
+body {
+    font-size: 67.5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    background: burlywood url(img/guitarBackground.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+h1 {
+    color: black;
+    font-size: 2.5em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color: black;
+    font-size: 2.0;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+p {
+    font-size: 1.8em;
+    line-height: 1.5em;
+    color: black;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+a {
+    color: cornsilk;
+}
+a:hover {
+    color: brown;
+}
+
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+.contentwrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 3.0em;
+}
+ul.imglinks {
+    padding: 0.25em;
+    list-style: none;
+}
+div.clear {
+    clear: both;
+    font-size: 2%;
+}
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: cornsilk url(img/headerbackground.jpg) center 0px;
+}
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    color:cornsilk;
+    font-size: 8.0em;
+    letter-spacing: -0.025em;
+    margin: 0;
+}
+header h2 {
+    font-weight: 400;
+    font-size: 5.25em;
+    color: black;
+    margin: -0.4em 0 0 1.0em;
+    letter-spacing: 0.15em;
+}
+nav {
+    color: burlywood;
+    font-size: 2.0em;
+    letter-spacing: 0.05em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-flex;
+    margin: 0;
+}
+nav#headerbar {
+    float: right;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background: rgba(64, 54, 47, 0.8);
+    height: 1.5em;
+}
+nav#headerbar li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: top;
+}
+
+nav#headerbar ul li.acctNav a, nav#headerbar ul li.acctNav a.visted {
+    color: cornsilk;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.5em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 1em;
+}
+nav#headerbar ul li.acctNav a:hover {
+    color: white;
+}
+nav#headerbar li a:hover {background-color: transparent;}
+nav#headerbar ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 0.8em;
+}
+section#midbar {
+    width: 238px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: whitesmoke ;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-bottom: burlywood solid 6px;
+    border-right: burlywood solid 6px;
+}
+section #main {
+    background-color: whitesmoke;
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 2px 2px 5px #777;
+}
+section div.box {
+    float: right;
+    position: relative;
+    width: 200px;
+    margin: 2em 2em 2em 2em;
+    padding: 5em;
+    background-color: whitesmoke;
+    border: black solid 1px;
+    border-radius: 0.3em;
+}
+section div.box img.guitarType {
+    width: 100%;
+}
+h2#storehead {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 6em;
+    color: cornsilk;
+}
+
+footer {
+    background-color: #40362f;
+    height: 30px;
+    font-size: 1.3em;
+    color: cornsilk;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+
+}
+footer a, footer a:visited {
+    color: cornsilk;
+    text-decoration: none;
+}
+footer a:hover {
+    color: cornsilk;
+}
+button {
+    color: black;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2 0.5em;
+    border: 1px solid burlywood;
+}
+button:hover {
+    background-color: burlywood;
+    border: 1px solid black;
+}
